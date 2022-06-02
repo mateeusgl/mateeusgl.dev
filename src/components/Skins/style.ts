@@ -29,22 +29,24 @@ export const Content = styled.div`
 	}
 
 	ul {
-		display: grid;
-		grid-template-columns: repeat(4, 150px);
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		flex-wrap: wrap;
 		gap: 1rem;
 		list-style: none;
 
-		margin-top: 1.5rem;
+		margin-top: 1rem;
 
 		li {
 			display: flex;
+			width: 8rem;
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
-			padding: .5rem;
+			padding: 1rem;
 			justify-content: space-between;
 			background: linear-gradient(200deg, greenyellow, #0a66c2);
-
 			border-radius: .8rem;
 		}
 	}

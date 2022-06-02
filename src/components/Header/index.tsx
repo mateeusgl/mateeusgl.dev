@@ -8,16 +8,13 @@ export function Header() {
 					<h1>Mateeusgl</h1>
 					<ul>
 						<li>
-							<a href="#">Início</a>
+							<a href="https://github.com/mateeusgl" target="_blank">Github</a>
 						</li>
 						<li>
-							<a href="#">Sobre mim</a>
+							<a href="https://twitter.com/mateeusgl" target="_blank">Twitter</a>
 						</li>
 						<li>
-							<a href="#">Projetos</a>
-						</li>
-						<li>
-							<a href="#">Habilidades</a>
+							<a href="https://github.com/mateeusgl?tab=repositories" target="_blank">Projetos</a>
 						</li>
 					</ul>
 				</Content>

@@ -13,21 +13,10 @@ export const Content = styled.div`
 
 	display: flex;
 	align-items: center;
-	gap: 8rem;
 
 	p {
 		color: var(--text);
 	}
 
-	section {
-		img {
-			border-radius: .8rem;
-		width: 3rem;
-
-		}
-
-		a:not(:last-child) {
-			margin-right: .8rem;
-		}
-	}
+	
 `

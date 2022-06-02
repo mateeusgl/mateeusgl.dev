@@ -46,7 +46,7 @@ export const Content = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: #0a66c2;
+		background: greenyellow;
 		
 		width: 100%;
 		height: 6rem;
@@ -55,13 +55,13 @@ export const Content = styled.div`
 		font-size: 2rem;
 		text-decoration: none;
 		letter-spacing: 0.25rem;
-		color: greenyellow;
+		color: #0a66c2;
 
 		transition: color 2ms;
 
 		&:hover {
-			background: greenyellow;
-			color: #0a66c2;
+			background: #0a66c2;
+			color: greenyellow;
 		}
 	}
 `
