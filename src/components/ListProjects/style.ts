@@ -9,7 +9,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-	max-width: 100%;
+	max-width: 80%;
 	margin: 0 auto;
 
 	padding: 1.5rem 0;
@@ -28,9 +28,9 @@ export const Content = styled.div`
 	
 	ul {
 		list-style: none;
-		height: 400px;
-		display: grid;
-		grid-template-columns: repeat(3, 180px);
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
 		gap: .8rem;
 
 		li {
