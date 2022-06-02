@@ -1,29 +1,30 @@
+import { useEffect, useState } from "react";
+import { ProjectItem } from "../ProjectItem";
 import { Container, Content } from "./style";
 
+interface Repository {
+	name: string,
+	description: string,
+	html_url: string
+}
+
 export function ListProjects() {
+	const [repositories, setRepositories] = useState<Repository[]>([])
+
+	useEffect(() => {
+		fetch("https://api.github.com/users/mateeusgl/repos")
+			.then(response => response.json())
+			.then(data => setRepositories(data))
+	}, [])
+
 	return (
 		<Container>
 			<Content>
 				<h1>Projetos</h1>
 				<ul>
-					<li>
-						<h2>In Progress</h2>
-					</li>
-					<li>
-						<h2>In Progress</h2>
-					</li>
-					<li>
-						<h2>In Progress</h2>
-					</li>
-					<li>
-						<h2>In Progress</h2>
-					</li>
-					<li>
-						<h2>In Progress</h2>
-					</li>
-					<li>
-						<h2>In Progress</h2>
-					</li>
+					{repositories.map(repository => {
+						return <ProjectItem key={repository.name} repository={repository}/>
+					})}
 				</ul>
 			</Content>
 		</Container>

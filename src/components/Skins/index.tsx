@@ -38,7 +38,7 @@ export function Skins() {
 				<h1>Habilidades</h1>
 				<ul>
 					{skins.map(skin => (
-						<li>
+						<li key={skin.name}>
 							<img src={skin.image_url} alt={skin.name} />
 							<p>{skin.name}</p>
 						</li>

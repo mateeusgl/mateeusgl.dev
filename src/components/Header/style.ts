@@ -16,7 +16,10 @@ export const Content = styled.div`
 
 
 	h1 {
-		color: white
+		background: -webkit-linear-gradient(100deg, greenyellow, #0a66c2);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
 	}
 
 	ul {
@@ -32,7 +35,10 @@ export const Content = styled.div`
 		}
 
 		a:hover {
-			color: greenyellow;
+			background: -webkit-linear-gradient(45deg, greenyellow, #0a66c2);
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
 		}
 
 		li:not(:last-child) {

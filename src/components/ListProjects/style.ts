@@ -4,14 +4,12 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	border-bottom: 1px solid white;
 `
 
 export const Content = styled.div`
 	max-width: 80%;
-	margin: 0 auto;
-
+	
 	padding: 1.5rem 0;
 
 	h1 {
@@ -27,16 +25,10 @@ export const Content = styled.div`
 	}
 	
 	ul {
-		list-style: none;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: .8rem;
-
-		li {
-			text-align: center;
-			padding: 5rem 0;
-			background: linear-gradient(45deg, greenyellow, #0a66c2);
-		}
+		list-style: none;
 	}
 `
