@@ -12,9 +12,13 @@ export function ListProjects() {
 	const [repositories, setRepositories] = useState<Repository[]>([])
 
 	useEffect(() => {
-		fetch("https://api.github.com/users/mateeusgl/repos")
+		const repos = async () => {
+			await fetch("https://api.github.com/users/mateeusgl/repos")
 			.then(response => response.json())
 			.then(data => setRepositories(data))
+		}
+
+		repos()
 	}, [])
 
 	return (
