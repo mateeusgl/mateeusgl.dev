@@ -14,7 +14,7 @@ export const Content = styled.div`
 
 	h1 {
 		font-weight: 600;
-		letter-spacing: 1.25rem;
+		letter-spacing: 1rem;
 		margin-bottom: 1rem;
 		
 		background: -webkit-linear-gradient(100deg, greenyellow, #0a66c2);

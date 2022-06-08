@@ -19,7 +19,7 @@ export const Content = styled.div`
 	align-items: center;
 
 	img {
-		width: 300px;
+		width: 18.75rem;
 		border-radius: 50%;
 		margin-bottom: 2rem;
 	}
@@ -48,8 +48,8 @@ export const Content = styled.div`
 		align-items: center;
 		background: greenyellow;
 		
-		width: 100%;
-		height: 6rem;
+		width: 80%;
+		height: 5rem;
 		border-radius: 5rem;
 
 		font-size: 2rem;

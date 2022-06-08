@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Content = styled.li`
-	width: 200px;
+	width: 12.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,5 +17,14 @@ export const Content = styled.li`
 
 	p {
 		margin-bottom: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: #0a66c2;
+		
+		&:hover {
+			color: greenyellow;
+		}
 	}
 `

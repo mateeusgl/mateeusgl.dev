@@ -27,7 +27,7 @@ export const Content = styled.div`
 		list-style: none;
 
 		a {
-			font-size: 1.16rem;
+			font-size: 1rem;
 			text-decoration: none;
 			color: var(--text);
 
