@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { ListProjects } from "./components/ListProjects";
-import { Skins } from "./components/Skins";
+import { Skills } from "./components/Skills";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -13,7 +13,7 @@ export function App() {
       <Home />
       <AboutMe />
       <ListProjects />
-      <Skins />
+      <Skills />
       <Footer />
       <GlobalStyle />
     </>    
