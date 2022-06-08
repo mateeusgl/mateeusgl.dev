@@ -7,8 +7,9 @@ export const Content = styled.li`
 	justify-content: center;
 	text-align: center;
 	padding: 3rem 1rem;
-	background: linear-gradient(45deg, greenyellow, #0a66c2);
+	background: linear-gradient(100deg, greenyellow, #0a66c2);
 	border-radius: 0.8rem;
+
 
 	h2 {
 		color: var(--title);

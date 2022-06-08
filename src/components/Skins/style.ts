@@ -48,6 +48,11 @@ export const Content = styled.div`
 			justify-content: space-between;
 			background: linear-gradient(200deg, greenyellow, #0a66c2);
 			border-radius: .8rem;
+
+			svg {
+				width: 5rem;
+				margin-bottom: 1rem;
+			}
 		}
 	}
 `
