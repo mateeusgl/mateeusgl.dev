@@ -11,7 +11,7 @@ export function Home(){
 
 	useEffect(() => {
 		const user = async () => {
-			await fetch("https://api.github.com/users/mateeusgl")
+			await fetch("https://api.github.com/users/mateeusls")
 			.then(response => response.json())
 			.then(data => setUseAvatar(data))
 		}

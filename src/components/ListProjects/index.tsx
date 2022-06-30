@@ -13,7 +13,7 @@ export function ListProjects() {
 
 	useEffect(() => {
 		const repos = async () => {
-			await fetch("https://api.github.com/users/mateeusgl/repos")
+			await fetch("https://api.github.com/users/mateeusls/repos")
 			.then(response => response.json())
 			.then(data => setRepositories(data))
 		}

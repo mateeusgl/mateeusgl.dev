@@ -5,16 +5,16 @@ export function Header() {
 		<>
 			<Container>
 				<Content>
-					<h1>Mateeusgl</h1>
+					<h1>Mateeusls</h1>
 					<ul>
 						<li>
-							<a href="https://github.com/mateeusgl" target="_blank">Github</a>
+							<a href="https://github.com/mateeusls" target="_blank">Github</a>
 						</li>
 						<li>
-							<a href="https://twitter.com/mateeusgl" target="_blank">Twitter</a>
+							<a href="https://twitter.com/mateeusls" target="_blank">Twitter</a>
 						</li>
 						<li>
-							<a href="https://github.com/mateeusgl?tab=repositories" target="_blank">Projetos</a>
+							<a href="https://github.com/mateeusls?tab=repositories" target="_blank">Projetos</a>
 						</li>
 					</ul>
 				</Content>
