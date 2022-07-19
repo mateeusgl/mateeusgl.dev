@@ -1,0 +1,81 @@
+{
+	"about": {
+		"img": "https://github.com/mateeusls.png",
+		"title": "Mateus Lopes.",
+		"paragraphOne": "Front-end developer, specialized in delivering high quality solutions. I like to explore what modern tools take to improve UI/UX.",
+		"paragraphTwo": ""
+	},
+	"socials": [
+		{
+			"name": "Twitter",
+			"url": "https://twitter.com/mateeusls"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/mateeusls"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://instagram.com/mateeusls"
+		},
+		{
+			"name": "Linkedin",
+			"url": "https://linkedin.com/mateeusls"
+		}
+	],
+	"project": [
+		{
+			"img": "https://github.com/mateeusls/dtmoney/raw/main/.github/preview.svg",
+			"title": "Dtmoney",
+			"description": "The dtmoney is a web app for finance management, register your deposits and withdrawals",
+			"url": "https://github.com/mateeusls/dtmoney"
+		},
+		{
+			"img": "https://github.com/mateeusls/ignews/raw/main/.github/Capa.png",
+			"title": "Ignews",
+			"description": "The ig.news is a newsletter about development world",
+			"url": "https://github.com/mateeusls/ignews"
+		},
+		{
+			"img": "",
+			"title": "Ignite Labs",
+			"description": "",
+			"url": "https://github.com/mateeusls/ignite-lab-react"
+		}
+	],
+	"skills": [
+		{
+			"name":"HTML"
+		}, 
+		{
+			"name": "CSS"
+		}, 
+		{
+			"name": "Javascript"
+		},
+		{
+			"name": "Git"
+		},
+		{
+			"name": "SQL"
+		},
+		{
+			"name": "React.Js(Next.js)"
+		},
+		{
+			"name": "TypeScript"
+		},
+		{
+			"name": "TailwindCSS"
+		},
+		{
+			"name": "CSS-in-JS"
+		},
+		{
+			"name": "Figma"
+		},
+		{
+			"name": "Github"
+		}
+	]
+}

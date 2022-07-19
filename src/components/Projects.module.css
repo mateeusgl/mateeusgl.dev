@@ -1,0 +1,44 @@
+.container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+
+	margin: 2rem 0;
+}
+
+.project + .project{
+	margin-top: 1rem;
+}
+
+.project {
+	background: var(--gray-600);
+	border-radius: 8px;
+
+	transition: transform 200ms;
+}
+
+.project:hover {
+	transform: scale(1.1);
+}
+
+.project a {
+	display: block;
+	padding: 2rem;
+	text-decoration: none;
+}
+
+.project a div {
+	background: -webkit-linear-gradient(right, var(--green-300), var(--blue-500));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project a h3 {
+	color: var(--gray-100);
+	margin-top: 0.875rem;
+}
+
+.project a p {
+	color: var(--gray-300);
+	margin-top: 0.875rem;
+}

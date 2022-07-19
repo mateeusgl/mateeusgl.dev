@@ -1,0 +1,22 @@
+.portfolio {
+	display: flex;
+	padding: 0 4rem ;
+	gap: 2rem;
+}
+
+.aside {
+	width: 24rem;
+}
+
+.main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (max-width: 990px) {
+	.portfolio {
+		flex-direction: column;
+	}
+}

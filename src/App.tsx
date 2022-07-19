@@ -1,22 +1,10 @@
-import { AboutMe } from "./components/AboutMe";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Home } from "./components/Home";
-import { ListProjects } from "./components/ListProjects";
-import { Skills } from "./components/Skills";
-
-import { GlobalStyle } from "./styles/global";
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./components/Router";
 
 export function App() {
   return (
-    <>
-      <Header />
-      <Home />
-      <AboutMe />
-      <ListProjects />
-      <Skills />
-      <Footer />
-      <GlobalStyle />
-    </>    
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
